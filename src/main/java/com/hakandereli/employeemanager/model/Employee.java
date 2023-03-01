@@ -17,9 +17,8 @@ public class Employee implements Serializable {
     @Column(nullable = false, updatable = false)
     private String employeeCode;
 
-    //Fotoğraf Eklenecek daha sonra şimdilik sadece url li tutuluyor.
+    //Fotoğraf Eklenecek daha sonra şimdilik sadece url li tutuluyor...
     private String imageUrl;
-
 
     public Employee() {
     }
