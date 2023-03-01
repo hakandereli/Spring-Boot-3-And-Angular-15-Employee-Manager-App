@@ -10,6 +10,7 @@ import java.util.List;
 import static org.springframework.http.HttpStatus.CREATED;
 import static org.springframework.http.HttpStatus.OK;
 
+@CrossOrigin(origins = "http://localhost:4200/")
 @RestController
 @RequestMapping(path = "employeemanager/api/v1/employee")
 public class EmployeeController {
